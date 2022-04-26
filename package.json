@@ -3,7 +3,8 @@
 	"scripts": {
 		"start": "wmr",
 		"build": "wmr build --prerender",
-		"serve": "wmr serve"
+		"serve": "wmr serve",
+		"test": "jest"
 	},
 	"eslintConfig": {
 		"extends": "preact"
@@ -13,6 +14,12 @@
 		"preact-iso": "^2.3.0"
 	},
 	"devDependencies": {
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/preact": "^2.0.1",
+		"@types/jest": "^27.4.1",
+		"jest": "^27.5.1",
+		"jest-preset-preact": "^4.0.5",
+		"jest-watch-typeahead": "^1.1.0",
 		"wmr": "^3.7.2"
 	}
 }
