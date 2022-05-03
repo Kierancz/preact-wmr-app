@@ -18,6 +18,7 @@
 		"esModuleInterop": true
 	},
 	"include": ["node_modules/wmr/types.d.ts", "**/*"],
+	"exclude": ["**/*.test.js"],
 	"typeAcquisition": {
 		"enable": true
 	}
