@@ -6,14 +6,16 @@
 		"jsxFragmentFactory": "Fragment",
 		"allowJs": true,
 		"checkJs": true,
-		// "strict": true,
+		"strict": true,
 		"noEmit": true,
 		"moduleResolution": "node",
-		"target": "ESNext",
+		"target": "esnext",
 		"module": "esnext",
+		"baseUrl": "./",
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
-		"downlevelIteration": true
+		"downlevelIteration": true,
+		"esModuleInterop": true
 	},
 	"include": ["node_modules/wmr/types.d.ts", "**/*"],
 	"typeAcquisition": {
