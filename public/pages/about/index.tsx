@@ -1,10 +1,10 @@
-import styles from "./style.module.css";
+import { Box } from "../../atoms";
 
 const About = () => (
-  <section className={styles.about}>
+  <Box as="section" css={{ background: "#dbcfe7" }}>
     <h1>About</h1>
     <p>A page all about this website.</p>
-  </section>
+  </Box>
 );
 
 export default About;
