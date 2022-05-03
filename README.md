@@ -1,15 +1,16 @@
 # preact-wmr-app
 
-This is a template repo with a minimal yet ready for production setup for any app based on preact and wmr.
+This is a template repo with a minimal yet ready for production setup for any app based on [Preact](https://preactjs.com/) and [WMR](https://wmr.dev/).
 
 ## Contents
 
-- preact
-- wmr
-- typescript
-- jest
-- testing-library
-- eslint
-- prettier
-- husky
-- renovate
+- Preact
+- WMR
+- TypeScript
+- Jest
+- Testing-Library
+- Eslint
+- Prettier
+- Husky
+- Renovate
+- GitHub Actions

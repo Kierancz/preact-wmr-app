@@ -1,12 +1,12 @@
 import { h } from "preact";
-import styles from "./style.module.css";
 import { useState } from "preact/hooks";
+import { Box } from "../../atoms";
 
 export default function Home() {
   const [count, setCount] = useState(0);
 
   return (
-    <section className={styles.home}>
+    <Box as="section" css={{ background: "#f6f6f6", color: "#333" }}>
       <h1>Home</h1>
       <p>This is the home page.</p>
       <button style={{ width: 30 }} onClick={() => setCount(count - 1)}>
@@ -16,6 +16,6 @@ export default function Home() {
       <button style={{ width: 30 }} onClick={() => setCount(count + 1)}>
         +
       </button>
-    </section>
+    </Box>
   );
 }

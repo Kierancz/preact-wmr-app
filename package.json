@@ -8,7 +8,9 @@
 		"lint": "eslint"
 	},
 	"commitlint": {
-		"extends": ["@commitlint/config-conventional"]
+		"extends": [
+			"@commitlint/config-conventional"
+		]
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": "eslint",
@@ -16,6 +18,7 @@
 		"!(*yarn-lock).yaml": "prettier --write"
 	},
 	"dependencies": {
+		"goober": "^2.1.9",
 		"preact": "^10.7.1",
 		"preact-iso": "^2.3.0"
 	},
